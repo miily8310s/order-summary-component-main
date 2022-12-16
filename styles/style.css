@@ -1,0 +1,132 @@
+* {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+  background: #d6e1ff;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+.main {
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  color: #1f2e55;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 32px 7%;
+}
+
+.hero {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.head {
+  text-align: center;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.desc {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  color: #717fa6;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f9ff;
+  border-radius: 11px;
+  margin-top: 24px;
+  padding: 17px 16px 16px;
+}
+
+.box__container {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  flex-grow: 1;
+}
+
+.order {
+  font-size: 14px;
+  line-height: 19px;
+}
+.order__item {
+  font-weight: 900;
+  color: #1f2e55;
+}
+.order__price {
+  margin-top: 3px;
+  color: #717fa6;
+}
+.change__link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #382ae1;
+}
+.change__link:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  width: 100%;
+  background: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.proceed__button {
+  margin-top: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.proceed__button:hover {
+  background: #766cf1;
+}
+
+.cancel__button {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+}
+
+.cancel__button:hover {
+  color: #1f2e55;
+}
+
+@media screen and (min-width: 700px) {
+  .main {
+    width: 65%;
+  }
+  .container {
+    margin-left: 11%;
+    margin-right: 11%;
+  }
+}
